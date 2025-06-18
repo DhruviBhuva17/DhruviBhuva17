@@ -1,0 +1,70 @@
+\documentclass[12pt]{article}
+% \usepackage[utf8]{inputenc} % Removed for fontspec compatibility
+\usepackage{fontspec} % Added to use system fonts and Unicode
+\setmainfont{Noto Sans} % Set a Unicode font that supports Latin and Gujarati
+                       % You can change "Noto Sans" to another font like "Noto Sans Gujarati"
+                       % or any other font that supports the characters you need.
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{physics}  % For better equation formatting
+\usepackage{siunitx}  % For units
+\usepackage{textcomp} % Added for symbols like 	exttimes and others
+
+% Declare Unicode characters for superscript numbers and minus
+\DeclareUnicodeCharacter{207B}{\ensuremath{^{-}}} % Superscript Minus
+\DeclareUnicodeCharacter{2070}{\ensuremath{^{0}}} % Superscript Zero
+\DeclareUnicodeCharacter{00B9}{\ensuremath{^{1}}} % Superscript One
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^{2}}} % Superscript Two
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^{3}}} % Superscript Three
+\DeclareUnicodeCharacter{2074}{\ensuremath{^{4}}} % Superscript Four
+\DeclareUnicodeCharacter{2075}{\ensuremath{^{5}}} % Superscript Five
+\DeclareUnicodeCharacter{2076}{\ensuremath{^{6}}} % Superscript Six
+\DeclareUnicodeCharacter{2077}{\ensuremath{^{7}}} % Superscript Seven
+\DeclareUnicodeCharacter{2078}{\ensuremath{^{8}}} % Superscript Eight
+\DeclareUnicodeCharacter{2079}{\ensuremath{^{9}}} % Superscript Nine
+
+\geometry{a4paper, margin=1in}
+\sloppy % Allow more flexible line breaking
+
+\begin{document}
+
+\begin{center}
+\Large\textbf{SVNIT}\\[1cm]
+\normalsize IDK\\[0.5cm]
+\Large\textbf{Test Paper}\\[0.5cm]
+\normalsize 60 minutes \hspace{1cm} Maximum Marks: 3\\[1cm]
+\end{center}
+
+\begin{enumerate}[leftmargin=*]
+
+\item[1.] ધારોઃ કે \ensuremath{\alpha} \ensuremath{_{\ensuremath{\theta}}} અને \ensuremath{\beta} \ensuremath{_{\ensuremath{\theta}}} એ 2x \ensuremath{^{2}} + \ensuremath{\left( \ensuremath{\cos{\ensuremath{\theta}}} \right)}x - 1 = 0, \ensuremath{\theta} \ensuremath{\in} \ensuremath{\left( 0, 2\ensuremath{\pi} \right)} ના વિભિન્ન મૂળ છે. જે m અને M એ \ensuremath{\ensuremath{\alpha}_{\ensuremath{\theta}}^{4}} + \ensuremath{\ensuremath{\beta}_{\ensuremath{\theta}}^{4}} ના લઘુત્તમ તથા મહત્તમ મૂલ્યો હોય, તો 16 \ensuremath{\left( M + m \right)} = \_\_\_\_\_\_\_.\\[0.2em] \text{[1 marks]}
+
+
+\begin{enumerate}[label=(\alph*)]
+\item 24
+\item 25
+\item 27
+\item 17
+\end{enumerate}
+
+\item[2.] જો x = f(y) એ વિભિન્ન સમીકરણ \ensuremath{\left( 1 + y \ensuremath{^{2}} \right)} + \ensuremath{\left( x - 2e \ensuremath{^{\ensuremath{\tan^{-1}{y}}}} \right)} \ensuremath{\frac{\mathrm{d}y}{\mathrm{d}x}} = 0, y \ensuremath{\in} \ensuremath{\left( -\ensuremath{\frac{\ensuremath{\pi}}{2}}, \ensuremath{\frac{\ensuremath{\pi}}{2}} \right)} નું ઉકેલ હોય, અને f(0) = 1 હોય, તો f \ensuremath{\left( \ensuremath{\frac{1}{\ensuremath{\sqrt{3}}}} \right)} = \_\_\_\_\_\_\_.\\[0.2em] \text{[1 marks]}
+
+
+\begin{enumerate}[label=(\alph*)]
+\item e\ensuremath{^{\ensuremath{\frac{\ensuremath{\pi}}{4}}}}
+\item e\ensuremath{^{\ensuremath{\frac{\ensuremath{\pi}}{12}}}}
+\item e\ensuremath{^{\ensuremath{\frac{\ensuremath{\pi}}{3}}}}
+\item e\ensuremath{^{\ensuremath{\frac{\ensuremath{\pi}}{6}}}}
+\end{enumerate}
+
+\item[3.] જો \ensuremath{\displaystyle\sum_{r=1}^{30} \ensuremath{\frac{r \ensuremath{^{2}} \ensuremath{\left( \ensuremath{{}^{30}C_{r}} \right)} \ensuremath{^{2}}}{\ensuremath{{}^{30}C_{r-1}}}}} = \ensuremath{\alpha} \ensuremath{\times} 2 \ensuremath{^{29}} હોય, તો \ensuremath{\alpha} = \_\_\_\_.\\[0.2em] \text{[1 marks]}
+
+
+\end{enumerate}
+
+\end{document}
